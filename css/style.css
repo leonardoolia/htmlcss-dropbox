@@ -10,3 +10,63 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
+
+/* ?UTILS */
+
+.flex {
+    display: flex;
+}
+
+.border {
+    border: 1px dotted black;
+}
+
+.container-big {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+ul.flex {
+    gap: 20px;
+}
+
+/* ?HEADER */
+
+/* Nav */
+.header-navbar {
+    height: 60px;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-left>img {
+    height: 20px;
+    width: auto;
+    margin-right: 20px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    height: 600px;
+    padding-top: 100px;
+}
+
+.jumbotron-content {
+    height: 400px;
+}
+
+.jumbotron-image {
+    height: 100%;
+    width: auto;
+}
