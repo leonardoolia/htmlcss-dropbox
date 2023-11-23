@@ -4,3 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ?GENERALS */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
