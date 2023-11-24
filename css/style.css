@@ -70,3 +70,26 @@ ul.flex {
     height: 100%;
     width: auto;
 }
+
+/* ?MAIN */
+
+/* Plans section */
+
+.col {
+    flex-basis: calc(100% / 3);
+}
+
+
+/* Partners section */
+.col-image {
+    height: 400px;
+    flex-basis: 60%;
+}
+
+.col-text {
+    flex-basis: 40%;
+}
+
+.col-image>img {
+    height: 100%;
+}
