@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* ?GENERALS */
+/* ?GENERICS */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -15,11 +15,21 @@ ul {
     list-style-type: none;
 }
 
-/* ?UTILS */
-
-.flex {
-    display: flex;
+a {
+    color: black;
+    text-decoration: none;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.col .card {
+    gap: 10px;
+}
+
+/* ?UTILS */
 
 .border {
     border: 1px dotted black;
@@ -35,9 +45,13 @@ ul {
     margin: 0 auto;
 }
 
-ul.flex {
-    gap: 20px;
+/* Buttons */
+
+.btn {
+    display: inline-block;
 }
+
+.btn-small {}
 
 /* ?HEADER */
 
@@ -45,12 +59,22 @@ ul.flex {
 .header-navbar {
     height: 60px;
     font-size: 14px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
 }
 
-.navbar-left>img {
+.navbar-left {
+    display: flex;
+}
+
+.header-navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-left img {
     height: 20px;
     width: auto;
     margin-right: 20px;
@@ -60,9 +84,11 @@ ul.flex {
 .jumbotron {
     height: 600px;
     padding-top: 100px;
+    background-color: aqua;
 }
 
 .jumbotron-content {
+    display: flex;
     height: 400px;
 }
 
@@ -79,8 +105,16 @@ ul.flex {
     flex-basis: calc(100% / 3);
 }
 
+.plans .row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* Partners section */
+.partners {
+    display: flex;
+}
+
 .col-image {
     height: 400px;
     flex-basis: 60%;
@@ -93,3 +127,106 @@ ul.flex {
 .col-image>img {
     height: 100%;
 }
+
+
+/* Dropbox Business section */
+.dropbox-business .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropbox-business .col {
+    flex-basis: calc(100% / 3);
+}
+
+.discover-more {
+    margin-top: 100px;
+}
+
+/* Agencies section */
+.agencies {
+    display: flex;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+.agencies img {
+    height: 30%;
+    width: auto;
+}
+
+.agencies-left,
+.agencies-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 3);
+}
+
+.agencies-left div {
+    width: 50%;
+    height: 50%;
+}
+
+.agencies-right div {
+    width: 50%;
+    height: 50%;
+}
+
+.agencies-mid {
+    flex-basis: calc(100% / 3);
+}
+
+.free-trail {
+    flex-basis: 100%;
+    /* display: flex; */
+    height: 400px;
+}
+
+/* Agencies backgound-colors */
+.designit {
+    background-color: #a2d39b;
+}
+
+.asu {
+    background-color: #62082b;
+}
+
+.uf {
+    background-color: #0193ce;
+}
+
+.topps {
+    background-color: #ff1c1d;
+}
+
+.wbr {
+    background-color: #d50020;
+}
+
+.hc {
+    background-color: #b4d0e6;
+}
+
+.lp {
+    background-color: #0d2481;
+}
+
+.cco {
+    background-color: #ffd930;
+}
+
+
+/* FAQ Section */
+
+.faq h2 {
+    margin-bottom: 40px;
+}
+
+.faq p {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+}
+
+/* ?FOOTER */
