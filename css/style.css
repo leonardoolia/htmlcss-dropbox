@@ -105,6 +105,14 @@ h2 {
     margin-bottom: 30px;
 }
 
+.btn-secondary {
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+
 /* ?HEADER */
 
 /* Nav */
@@ -244,15 +252,18 @@ span.sep-underline {
 /* Partners section */
 .partners {
     display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .col-image {
-    height: 400px;
+    height: 500px;
     flex-basis: 60%;
 }
 
 .col-text {
     flex-basis: 40%;
+    padding: 40px 40px 50px 40px;
 }
 
 .col-image>img {
