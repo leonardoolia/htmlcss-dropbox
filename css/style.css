@@ -275,14 +275,20 @@ span.sep-underline {
 .dropbox-business .row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -20px;
 }
 
 .dropbox-business .col {
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 3 -40px / 3);
+}
+
+.dropbox-business p {
+    margin-top: 20px;
 }
 
 .discover-more {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 /* Agencies section */
