@@ -404,6 +404,8 @@ span.sep-underline {
 .free-trial {
     background-color: #b4d0e6;
     height: 300px;
+    display: flex;
+    align-items: center;
 }
 
 .free-trial .container-small {
@@ -411,8 +413,6 @@ span.sep-underline {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
-    margin-top: 50px;
 }
 
 .free-trial span {
