@@ -54,8 +54,19 @@ h2 {
 
 /* ?UTILS */
 
-.border {
+.borders {
     border: 1px dotted black;
+}
+
+.border {
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+
+.border-top-btm {
+    border-bottom: 1px dotted black;
+    border-top: 1px dotted black;
 }
 
 /* Spacing */
@@ -343,6 +354,12 @@ span.sep-underline {
 
 .agencies-mid * {
     margin-top: 40px;
+}
+
+.agencies-mid img {
+    border-bottom: 1px solid #959a99;
+    padding-bottom: 40px;
+    border-image: linear-gradient(to right, #959a99 20%, transparent 20%) 100% 1;
 }
 
 .agencies-mid blockquote {
