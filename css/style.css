@@ -310,6 +310,11 @@ span.sep-underline {
     flex-basis: calc(100% / 3);
 }
 
+.agencies-left div:hover,
+.agencies-right div:hover {
+    border: 10px solid rgba(255, 255, 255, 0.6);
+}
+
 .agencies-left div,
 .agencies-right div {
     display: flex;
