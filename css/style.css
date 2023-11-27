@@ -106,7 +106,6 @@ h2 {
 
 .btn-small {
     padding: 5px 10px;
-
     /* display: inline-block; */
 }
 
@@ -142,16 +141,13 @@ h2 {
     left: 0;
 }
 
-.navbar-left {
-    display: flex;
-}
-
 .navbar-left ul {
     gap: 10px;
 }
 
 .header-navbar ul {
     display: flex;
+    align-items: center;
 }
 
 .navbar-left img {
