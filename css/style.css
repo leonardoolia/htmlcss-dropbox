@@ -122,6 +122,11 @@ h2 {
     font-weight: bold;
 }
 
+.btn:hover,
+.btn-small:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 
 /* ?HEADER */
 
@@ -141,7 +146,8 @@ h2 {
     left: 0;
 }
 
-.navbar-left ul {
+.navbar-left ul,
+.navbar-right ul {
     gap: 10px;
 }
 
