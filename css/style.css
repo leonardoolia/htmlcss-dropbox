@@ -163,6 +163,13 @@ h2 {
     margin-right: 20px;
 }
 
+
+/* !Bonus */
+
+.header-navbar li {
+    border-bottom: 2px solid transparent;
+}
+
 .header-navbar li:hover {
     border-bottom: 2px solid black;
 }
