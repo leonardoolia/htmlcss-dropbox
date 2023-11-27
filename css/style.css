@@ -156,6 +156,11 @@ h2 {
     margin-right: 20px;
 }
 
+
+.header-navbar li:hover {
+    border-bottom: 3px solid black;
+}
+
 /* Jumbotron */
 .jumbotron {
     height: 850px;
@@ -315,9 +320,10 @@ span.sep-underline {
     flex-wrap: wrap;
 }
 
-.agencies img {
-    /* height: 20%; */
-    width: auto;
+.agencies-left img,
+.agencies-right img {
+    width: 50%;
+    filter: invert(1);
 }
 
 .agencies-left,
@@ -325,7 +331,14 @@ span.sep-underline {
     display: flex;
     flex-wrap: wrap;
     flex-basis: calc(100% / 3);
+    /* width: calc(100vw / 3);
+    height: calc(100vw / 3); */
 }
+
+/* .agencies-mid {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+} */
 
 .agencies-left div:hover,
 .agencies-right div:hover {
