@@ -167,11 +167,11 @@ h2 {
 /* !Bonus */
 
 .header-navbar li {
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 .header-navbar li:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 
 .navbar-left li:first-child {
@@ -318,10 +318,6 @@ span.sep-underline {
     margin: 0 -20px;
 }
 
-.dropbox-business .col {
-    flex-basis: calc(100% / 3 -40px / 3);
-}
-
 .dropbox-business p {
     margin-top: 20px;
 }
@@ -358,11 +354,6 @@ span.sep-underline {
     height: calc(100vw / 3);
 } */
 
-.agencies-left div:hover,
-.agencies-right div:hover {
-    border: 10px solid rgba(255, 255, 255, 0.6);
-}
-
 .agencies-left div,
 .agencies-right div {
     display: flex;
@@ -370,6 +361,12 @@ span.sep-underline {
     justify-content: center;
     width: 50%;
     height: 50%;
+}
+
+/* !Bonus */
+.agencies-left div:hover,
+.agencies-right div:hover {
+    border: 10px solid rgba(255, 255, 255, 0.6);
 }
 
 /* !Mid */
