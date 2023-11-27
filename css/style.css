@@ -460,6 +460,7 @@ span.sep-underline {
     border-bottom: 1px solid black;
     font-weight: bolder;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -468,6 +469,31 @@ span.sep-underline {
     border-top: 1px solid black;
     padding-top: 30px;
 }
+
+.faq-hidden {
+    display: none;
+    margin-top: 20px;
+}
+
+/* !Bonus */
+.faq div.first:hover .faq-hidden,
+.faq div.second:hover .faq-hidden,
+.faq div.third:hover .faq-hidden,
+
+.faq div.first:hover .fa-angle-up,
+.faq div.second:hover .fa-angle-up,
+.faq div.third:hover .fa-angle-up {
+    display: block;
+}
+
+.fa-angle-up,
+
+.faq div.first:hover .fa-angle-down,
+.faq div.second:hover .fa-angle-down,
+.faq div.third:hover .fa-angle-down {
+    display: none;
+}
+
 
 /* ?FOOTER */
 footer {
